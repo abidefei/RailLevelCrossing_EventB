@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:statemachines="http://soton.ac.uk/models/eventb/statemachines/2014" xmi:id="_ibb9QL73EeeG3clR7dtI1w" type="Statemachines" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_icWjQL73EeeG3clR7dtI1w" type="2006">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_icWjQb73EeeG3clR7dtI1w"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_icWjQr73EeeG3clR7dtI1w" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_icWjQ773EeeG3clR7dtI1w"/>
+    <element xmi:type="statemachines:Initial" href="M1_Control_Gate_iUML.bum#http://soton.ac.uk/models/eventb/statemachines/2014::Initial::M1_Control_Gate_iUML.Gate_Information.iUML_initial1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_icWjRL73EeeG3clR7dtI1w"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_icZmkL73EeeG3clR7dtI1w" type="2008">
+    <children xmi:type="notation:DecorationNode" xmi:id="_icaNoL73EeeG3clR7dtI1w" type="5009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_icaNob73EeeG3clR7dtI1w" type="7012">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_icaNor73EeeG3clR7dtI1w"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_icaNo773EeeG3clR7dtI1w"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_icaNpL73EeeG3clR7dtI1w" type="7013">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_icaNpb73EeeG3clR7dtI1w"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_icaNpr73EeeG3clR7dtI1w"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_icZmkb73EeeG3clR7dtI1w"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_icZmkr73EeeG3clR7dtI1w" fontName="Segoe UI"/>
+    <element xmi:type="statemachines:State" href="M1_Control_Gate_iUML.bum#http://soton.ac.uk/models/eventb/statemachines/2014::State::M1_Control_Gate_iUML.Gate_Information.Opened"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_icZmk773EeeG3clR7dtI1w" x="5" y="104"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ica0sL73EeeG3clR7dtI1w" type="2008">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ica0tL73EeeG3clR7dtI1w" type="5009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ica0tb73EeeG3clR7dtI1w" type="7012">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ica0tr73EeeG3clR7dtI1w"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ica0t773EeeG3clR7dtI1w"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ica0uL73EeeG3clR7dtI1w" type="7013">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ica0ub73EeeG3clR7dtI1w"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ica0ur73EeeG3clR7dtI1w"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_ica0sb73EeeG3clR7dtI1w"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ica0sr73EeeG3clR7dtI1w" fontName="Segoe UI"/>
+    <element xmi:type="statemachines:State" href="M1_Control_Gate_iUML.bum#http://soton.ac.uk/models/eventb/statemachines/2014::State::M1_Control_Gate_iUML.Gate_Information.Closing"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ica0s773EeeG3clR7dtI1w" x="9" y="208"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ica0u773EeeG3clR7dtI1w" type="2008">
+    <children xmi:type="notation:DecorationNode" xmi:id="_icbbwL73EeeG3clR7dtI1w" type="5009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_icbbwb73EeeG3clR7dtI1w" type="7012">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_icbbwr73EeeG3clR7dtI1w"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_icbbw773EeeG3clR7dtI1w"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_icbbxL73EeeG3clR7dtI1w" type="7013">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_icbbxb73EeeG3clR7dtI1w"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_icbbxr73EeeG3clR7dtI1w"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_ica0vL73EeeG3clR7dtI1w"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ica0vb73EeeG3clR7dtI1w" fontName="Segoe UI"/>
+    <element xmi:type="statemachines:State" href="M1_Control_Gate_iUML.bum#http://soton.ac.uk/models/eventb/statemachines/2014::State::M1_Control_Gate_iUML.Gate_Information.Closed"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ica0vr73EeeG3clR7dtI1w" x="264" y="252"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_icbbx773EeeG3clR7dtI1w" type="2008">
+    <children xmi:type="notation:DecorationNode" xmi:id="_icbby773EeeG3clR7dtI1w" type="5009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_icbbzL73EeeG3clR7dtI1w" type="7012">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_icbbzb73EeeG3clR7dtI1w"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_icbbzr73EeeG3clR7dtI1w"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_icbbz773EeeG3clR7dtI1w" type="7013">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_icbb0L73EeeG3clR7dtI1w"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_icbb0b73EeeG3clR7dtI1w"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_icbbyL73EeeG3clR7dtI1w"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_icbbyb73EeeG3clR7dtI1w" fontName="Segoe UI"/>
+    <element xmi:type="statemachines:State" href="M1_Control_Gate_iUML.bum#http://soton.ac.uk/models/eventb/statemachines/2014::State::M1_Control_Gate_iUML.Gate_Information.Opening"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_icbbyr73EeeG3clR7dtI1w" x="252" y="72"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_ibb9Qb73EeeG3clR7dtI1w"/>
+  <element xmi:type="statemachines:Statemachine" href="M1_Control_Gate_iUML.bum#http://soton.ac.uk/models/eventb/statemachines/2014::Statemachine::M1_Control_Gate_iUML.Gate_Information"/>
+</notation:Diagram>

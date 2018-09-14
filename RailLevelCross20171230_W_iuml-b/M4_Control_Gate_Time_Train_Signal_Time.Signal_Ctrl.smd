@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:statemachines="http://soton.ac.uk/models/eventb/statemachines/2014" xmi:id="_XIqMELTJEeiSWcLPF4Rxkg" type="Statemachines" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_YKYu0LTJEeiSWcLPF4Rxkg" type="2006">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_YKYu0bTJEeiSWcLPF4Rxkg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_YKYu0rTJEeiSWcLPF4Rxkg" fontName="Microsoft YaHei UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_YKYu07TJEeiSWcLPF4Rxkg"/>
+    <element xmi:type="statemachines:Initial" href="M4_Control_Gate_Time_Train_Signal_Time.bum#http://soton.ac.uk/models/eventb/statemachines/2014::Initial::M4_Control_Gate_Time_Train_Signal_Time.Signal_Ctrl.Signal_Ctrl_initial1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YKYu1LTJEeiSWcLPF4Rxkg" x="84" y="54" width="19" height="19"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_Y3K8ULTJEeiSWcLPF4Rxkg" type="2008">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Y3LjYLTJEeiSWcLPF4Rxkg" type="5009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Y3LjYbTJEeiSWcLPF4Rxkg" type="7012">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Y3LjYrTJEeiSWcLPF4Rxkg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Y3LjY7TJEeiSWcLPF4Rxkg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Y3LjZLTJEeiSWcLPF4Rxkg" type="7013">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Y3LjZbTJEeiSWcLPF4Rxkg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Y3LjZrTJEeiSWcLPF4Rxkg"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_Y3K8UbTJEeiSWcLPF4Rxkg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Y3K8UrTJEeiSWcLPF4Rxkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="statemachines:State" href="M4_Control_Gate_Time_Train_Signal_Time.bum#http://soton.ac.uk/models/eventb/statemachines/2014::State::M4_Control_Gate_Time_Train_Signal_Time.Signal_Ctrl.Null_S"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y3K8U7TJEeiSWcLPF4Rxkg" x="48" y="270" width="85" height="37"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_rDe7wLTJEeiSWcLPF4Rxkg" type="2008">
+    <children xmi:type="notation:DecorationNode" xmi:id="_rDfi0LTJEeiSWcLPF4Rxkg" type="5009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_rDfi0bTJEeiSWcLPF4Rxkg" type="7012">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_rDfi0rTJEeiSWcLPF4Rxkg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_rDfi07TJEeiSWcLPF4Rxkg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_rDfi1LTJEeiSWcLPF4Rxkg" type="7013">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_rDfi1bTJEeiSWcLPF4Rxkg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_rDfi1rTJEeiSWcLPF4Rxkg"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_rDe7wbTJEeiSWcLPF4Rxkg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_rDe7wrTJEeiSWcLPF4Rxkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="statemachines:State" href="M4_Control_Gate_Time_Train_Signal_Time.bum#http://soton.ac.uk/models/eventb/statemachines/2014::State::M4_Control_Gate_Time_Train_Signal_Time.Signal_Ctrl.Turn_Red"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rDe7w7TJEeiSWcLPF4Rxkg" x="396" y="96" width="91" height="49"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_weaTYLTJEeiSWcLPF4Rxkg" type="2008">
+    <children xmi:type="notation:DecorationNode" xmi:id="_weaTZLTJEeiSWcLPF4Rxkg" type="5009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_weaTZbTJEeiSWcLPF4Rxkg" type="7012">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_weaTZrTJEeiSWcLPF4Rxkg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_weaTZ7TJEeiSWcLPF4Rxkg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_weaTaLTJEeiSWcLPF4Rxkg" type="7013">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_weaTabTJEeiSWcLPF4Rxkg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_weaTarTJEeiSWcLPF4Rxkg"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_weaTYbTJEeiSWcLPF4Rxkg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_weaTYrTJEeiSWcLPF4Rxkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="statemachines:State" href="M4_Control_Gate_Time_Train_Signal_Time.bum#http://soton.ac.uk/models/eventb/statemachines/2014::State::M4_Control_Gate_Time_Train_Signal_Time.Signal_Ctrl.Turn_RedFlash"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_weaTY7TJEeiSWcLPF4Rxkg" x="660" y="252" width="121" height="49"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_1e-qQLTJEeiSWcLPF4Rxkg" type="2008">
+    <children xmi:type="notation:DecorationNode" xmi:id="_1e_RULTJEeiSWcLPF4Rxkg" type="5009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_1e_RUbTJEeiSWcLPF4Rxkg" type="7012">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_1e_RUrTJEeiSWcLPF4Rxkg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_1e_RU7TJEeiSWcLPF4Rxkg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_1e_RVLTJEeiSWcLPF4Rxkg" type="7013">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_1e_RVbTJEeiSWcLPF4Rxkg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_1e_RVrTJEeiSWcLPF4Rxkg"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_1e-qQbTJEeiSWcLPF4Rxkg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_1e-qQrTJEeiSWcLPF4Rxkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="statemachines:State" href="M4_Control_Gate_Time_Train_Signal_Time.bum#http://soton.ac.uk/models/eventb/statemachines/2014::State::M4_Control_Gate_Time_Train_Signal_Time.Signal_Ctrl.Turn_White"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1e-qQ7TJEeiSWcLPF4Rxkg" x="594" y="384" width="97" height="49"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_6B7JoLTMEeiSWcLPF4Rxkg" type="2010">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_6B7JobTMEeiSWcLPF4Rxkg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_6B7JorTMEeiSWcLPF4Rxkg" fontName="Microsoft YaHei UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_6B7Jo7TMEeiSWcLPF4Rxkg"/>
+    <element xmi:type="statemachines:Any" href="M4_Control_Gate_Time_Train_Signal_Time.bum#http://soton.ac.uk/models/eventb/statemachines/2014::Any::M4_Control_Gate_Time_Train_Signal_Time.Signal_Ctrl.Signal_Ctrl_any1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6B7JpLTMEeiSWcLPF4Rxkg" x="258" y="204" width="31" height="31"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_V86N0LTNEeiSWcLPF4Rxkg" type="2010">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_V86N0bTNEeiSWcLPF4Rxkg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_V86N0rTNEeiSWcLPF4Rxkg" fontName="Microsoft YaHei UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_V86N07TNEeiSWcLPF4Rxkg"/>
+    <element xmi:type="statemachines:Any" href="M4_Control_Gate_Time_Train_Signal_Time.bum#http://soton.ac.uk/models/eventb/statemachines/2014::Any::M4_Control_Gate_Time_Train_Signal_Time.Signal_Ctrl.Signal_Ctrl_any2"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V86N1LTNEeiSWcLPF4Rxkg" x="426" y="264" width="31" height="31"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_mKwVcLTNEeiSWcLPF4Rxkg" type="2010">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_mKwVcbTNEeiSWcLPF4Rxkg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_mKwVcrTNEeiSWcLPF4Rxkg" fontName="Microsoft YaHei UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_mKwVc7TNEeiSWcLPF4Rxkg"/>
+    <element xmi:type="statemachines:Any" href="M4_Control_Gate_Time_Train_Signal_Time.bum#http://soton.ac.uk/models/eventb/statemachines/2014::Any::M4_Control_Gate_Time_Train_Signal_Time.Signal_Ctrl.Signal_Ctrl_any3"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mKwVdLTNEeiSWcLPF4Rxkg" x="252" y="396" width="37" height="31"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_XIqMEbTJEeiSWcLPF4Rxkg"/>
+  <element xmi:type="statemachines:Statemachine" href="M4_Control_Gate_Time_Train_Signal_Time.bum#http://soton.ac.uk/models/eventb/statemachines/2014::Statemachine::M4_Control_Gate_Time_Train_Signal_Time.Signal_Ctrl"/>
+  <edges xmi:type="notation:Edge" xmi:id="_avfv4LTJEeiSWcLPF4Rxkg" type="4001" source="_YKYu0LTJEeiSWcLPF4Rxkg" target="_Y3K8ULTJEeiSWcLPF4Rxkg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_avfv5LTJEeiSWcLPF4Rxkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_avfv5bTJEeiSWcLPF4Rxkg" x="-8" y="-8"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_avfv4bTJEeiSWcLPF4Rxkg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_avfv4rTJEeiSWcLPF4Rxkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="statemachines:Transition" href="M4_Control_Gate_Time_Train_Signal_Time.bum#http://soton.ac.uk/models/eventb/statemachines/2014::Transition::M4_Control_Gate_Time_Train_Signal_Time.Signal_Ctrl._avgW8LTJEeiSWcLPF4Rxkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_avfv47TJEeiSWcLPF4Rxkg" points="[-5, 10, -1, -218]$[-5, 206, -1, -22]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_8Nb-8LTMEeiSWcLPF4Rxkg" type="4001" source="_6B7JoLTMEeiSWcLPF4Rxkg" target="_rDe7wLTJEeiSWcLPF4Rxkg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_8Nb-9LTMEeiSWcLPF4Rxkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8Nb-9bTMEeiSWcLPF4Rxkg" x="-8" y="-8"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_8Nb-8bTMEeiSWcLPF4Rxkg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_8Nb-8rTMEeiSWcLPF4Rxkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="statemachines:Transition" href="M4_Control_Gate_Time_Train_Signal_Time.bum#http://soton.ac.uk/models/eventb/statemachines/2014::Transition::M4_Control_Gate_Time_Train_Signal_Time.Signal_Ctrl._8NcmALTMEeiSWcLPF4Rxkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8Nb-87TMEeiSWcLPF4Rxkg" points="[16, -12, -125, 95]$[123, -113, -18, -6]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8NdNELTMEeiSWcLPF4Rxkg" id="(0.1978021978021978,0.32653061224489793)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_XSqf0LTNEeiSWcLPF4Rxkg" type="4001" source="_V86N0LTNEeiSWcLPF4Rxkg" target="_weaTYLTJEeiSWcLPF4Rxkg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_XSrG4LTNEeiSWcLPF4Rxkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XSrG4bTNEeiSWcLPF4Rxkg" x="-8" y="-8"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_XSqf0bTNEeiSWcLPF4Rxkg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_XSqf0rTNEeiSWcLPF4Rxkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="statemachines:Transition" href="M4_Control_Gate_Time_Train_Signal_Time.bum#http://soton.ac.uk/models/eventb/statemachines/2014::Transition::M4_Control_Gate_Time_Train_Signal_Time.Signal_Ctrl._XSrG4rTNEeiSWcLPF4Rxkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XSqf07TNEeiSWcLPF4Rxkg" points="[29, 0, -263, -3]$[353, 0, 61, -3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XSrt8LTNEeiSWcLPF4Rxkg" id="(0.06451612903225806,0.2903225806451613)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_mpk_cLTNEeiSWcLPF4Rxkg" type="4001" source="_mKwVcLTNEeiSWcLPF4Rxkg" target="_1e-qQLTJEeiSWcLPF4Rxkg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_mpk_dLTNEeiSWcLPF4Rxkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mpk_dbTNEeiSWcLPF4Rxkg" x="-8" y="-8"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_mpk_cbTNEeiSWcLPF4Rxkg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_mpk_crTNEeiSWcLPF4Rxkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="statemachines:Transition" href="M4_Control_Gate_Time_Train_Signal_Time.bum#http://soton.ac.uk/models/eventb/statemachines/2014::Transition::M4_Control_Gate_Time_Train_Signal_Time.Signal_Ctrl._mpk_drTNEeiSWcLPF4Rxkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mpk_c7TNEeiSWcLPF4Rxkg" points="[19, 0, -353, 3]$[421, -10, 49, -7]"/>
+  </edges>
+</notation:Diagram>
