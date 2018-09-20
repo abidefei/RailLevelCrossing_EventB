@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase;de.prob.units.mchBase" version="3">
+<org.eventb.core.carrierSet name="4" org.eventb.core.identifier="Controller_Order"/>
+<org.eventb.core.constant name="5" org.eventb.core.identifier="GoUp"/>
+<org.eventb.core.constant name="6" org.eventb.core.identifier="GoDown"/>
+<org.eventb.core.axiom name="7" org.eventb.core.label="axm1" org.eventb.core.predicate="partition(Controller_Order, {GoUp}, {GoDown},{Null_C})"/>
+<org.eventb.core.carrierSet name="8" org.eventb.core.identifier="Gate_State"/>
+<org.eventb.core.constant name="9" org.eventb.core.identifier="Closing"/>
+<org.eventb.core.constant name="_orWi8LJQEeeJ-5AShvxY9g" org.eventb.core.identifier="Closed"/>
+<org.eventb.core.constant name=":" org.eventb.core.identifier="Opening"/>
+<org.eventb.core.constant name="_orZmQLJQEeeJ-5AShvxY9g" org.eventb.core.identifier="Opened"/>
+<org.eventb.core.axiom name=";" org.eventb.core.label="axm2" org.eventb.core.predicate="partition(Gate_State, {Initia},{Closing},{Closed},{Opening},{Opened})"/>
+<org.eventb.core.constant de.prob.symbolic.symbolicAttribute="false" de.prob.units.inferredUnitPragmaAttribute="" de.prob.units.unitPragmaAttribute="" name="_orZmQLJQEeeJ-5AShvxY9h" org.eventb.core.identifier="Initia"/>
+<org.eventb.core.constant name="=" org.eventb.core.identifier="Null_C"/>
+</org.eventb.core.contextFile>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="Controller_Order" org.eventb.core.type="ℙ(Controller_Order)"/>
+<org.eventb.core.poIdentifier name="Gate_State" org.eventb.core.type="ℙ(Gate_State)"/>
+<org.eventb.core.poIdentifier name="Closed" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.poIdentifier name="Closing" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.poIdentifier name="GoDown" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.poIdentifier name="GoUp" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.poIdentifier name="Initia" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.poIdentifier name="Null_C" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.poIdentifier name="Opened" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.poIdentifier name="Opening" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.poPredicate name="Controller_Ordes" org.eventb.core.predicate="partition(Controller_Order,{GoUp},{GoDown},{Null_C})" org.eventb.core.source="/RailLevelCross20180917_BMS/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.axiom#7"/>
+<org.eventb.core.poPredicate name="Controller_Ordet" org.eventb.core.predicate="partition(Gate_State,{Initia},{Closing},{Closed},{Opening},{Opened})" org.eventb.core.source="/RailLevelCross20180917_BMS/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.axiom#;"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/RailLevelCross20180917_BMS/M1_Control_Gate.bpo|org.eventb.core.poFile#M1_Control_Gate|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="Controller_Ctrl" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.poIdentifier name="Gate_Information" org.eventb.core.type="Gate_State"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTGate_Informatioo" org.eventb.core.parentSet="/RailLevelCross20180917_BMS/M1_Control_Gate.bpo|org.eventb.core.poFile#M1_Control_Gate|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="Gate_Information'" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.poIdentifier name="Controller_Ctrl'" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPGate_Informatioo" org.eventb.core.parentSet="/RailLevelCross20180917_BMS/M1_Control_Gate.bpo|org.eventb.core.poFile#M1_Control_Gate|org.eventb.core.poPredicateSet#EVTIDENTGate_Informatioo" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poPredicateSet name="EVTIDENTGate_Informatiop" org.eventb.core.parentSet="/RailLevelCross20180917_BMS/M1_Control_Gate.bpo|org.eventb.core.poFile#M1_Control_Gate|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="Gate_Information'" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.poIdentifier name="Controller_Ctrl'" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPGate_Informatiop" org.eventb.core.parentSet="/RailLevelCross20180917_BMS/M1_Control_Gate.bpo|org.eventb.core.poFile#M1_Control_Gate|org.eventb.core.poPredicateSet#EVTIDENTGate_Informatiop" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="Gate_Information=Opened∨Gate_Information=Initia" org.eventb.core.source="/RailLevelCross20180917_BMS/M1_Control_Gate.bum|org.eventb.core.machineFile#M1_Control_Gate|org.eventb.core.event#0|org.eventb.core.guard#'"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTGate_Informatioq" org.eventb.core.parentSet="/RailLevelCross20180917_BMS/M1_Control_Gate.bpo|org.eventb.core.poFile#M1_Control_Gate|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="Gate_Information'" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.poIdentifier name="Controller_Ctrl'" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPGate_Informatioq" org.eventb.core.parentSet="/RailLevelCross20180917_BMS/M1_Control_Gate.bpo|org.eventb.core.poFile#M1_Control_Gate|org.eventb.core.poPredicateSet#EVTIDENTGate_Informatioq" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="Controller_Ctrl=GoDown" org.eventb.core.source="/RailLevelCross20180917_BMS/M1_Control_Gate.bum|org.eventb.core.machineFile#M1_Control_Gate|org.eventb.core.event#1|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="Gate_Information=Closing" org.eventb.core.source="/RailLevelCross20180917_BMS/M1_Control_Gate.bum|org.eventb.core.machineFile#M1_Control_Gate|org.eventb.core.event#1|org.eventb.core.guard#)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTGate_Informatior" org.eventb.core.parentSet="/RailLevelCross20180917_BMS/M1_Control_Gate.bpo|org.eventb.core.poFile#M1_Control_Gate|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="Gate_Information'" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.poIdentifier name="Controller_Ctrl'" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPGate_Informatior" org.eventb.core.parentSet="/RailLevelCross20180917_BMS/M1_Control_Gate.bpo|org.eventb.core.poFile#M1_Control_Gate|org.eventb.core.poPredicateSet#EVTIDENTGate_Informatior" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="Gate_Information=Closed" org.eventb.core.source="/RailLevelCross20180917_BMS/M1_Control_Gate.bum|org.eventb.core.machineFile#M1_Control_Gate|org.eventb.core.event#3|org.eventb.core.guard#)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTGate_Informatios" org.eventb.core.parentSet="/RailLevelCross20180917_BMS/M1_Control_Gate.bpo|org.eventb.core.poFile#M1_Control_Gate|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="Gate_Information'" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.poIdentifier name="Controller_Ctrl'" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPGate_Informatios" org.eventb.core.parentSet="/RailLevelCross20180917_BMS/M1_Control_Gate.bpo|org.eventb.core.poFile#M1_Control_Gate|org.eventb.core.poPredicateSet#EVTIDENTGate_Informatios" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="Controller_Ctrl=GoUp" org.eventb.core.source="/RailLevelCross20180917_BMS/M1_Control_Gate.bum|org.eventb.core.machineFile#M1_Control_Gate|org.eventb.core.event#4|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="Gate_Information=Opening" org.eventb.core.source="/RailLevelCross20180917_BMS/M1_Control_Gate.bum|org.eventb.core.machineFile#M1_Control_Gate|org.eventb.core.event#4|org.eventb.core.guard#)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/RailLevelCross20180917_BMS/M1_Control_Gate.bpo|org.eventb.core.poFile#M1_Control_Gate|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="Gate_Information∈Gate_State" org.eventb.core.source="/RailLevelCross20180917_BMS/M1_Control_Gate.bum|org.eventb.core.machineFile#M1_Control_Gate|org.eventb.core.invariant#-"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="Controller_Ctrl∈Controller_Order" org.eventb.core.source="/RailLevelCross20180917_BMS/M1_Control_Gate.bum|org.eventb.core.machineFile#M1_Control_Gate|org.eventb.core.invariant#\/"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.prFile version="1">
+<org.eventb.core.prProof name="INITIALISATION/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Equipment,{Train},{Gate}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p2,p3"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p2,p3"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Signalling,{Red},{Yellow},{Green}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p5,p6,p7,p8"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p5,p6,p7,p8"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Train_State,{Null_T},{Arrive},{Approach},{Exit}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p9" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p10,p11,p12,p13,p14,p15,p16"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p10,p11,p12,p13,p14,p15,p16"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Controller_Order,{Raise},{Lower},{Null_C}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p17" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p18,p19,p20,p21"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p18,p19,p20,p21"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Gate_State,{Close},{Open}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p22" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p23,p24"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p23,p24"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p25">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p25" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="partition(Signalling,{Red},{Yellow},{Green})">
+<org.eventb.core.prIdent name="Green" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Red" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Signalling" org.eventb.core.type="ℙ(Signalling)"/>
+<org.eventb.core.prIdent name="Yellow" org.eventb.core.type="Signalling"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p24" org.eventb.core.predicate="¬Close=Open">
+<org.eventb.core.prIdent name="Close" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.prIdent name="Gate_State" org.eventb.core.type="ℙ(Gate_State)"/>
+<org.eventb.core.prIdent name="Open" org.eventb.core.type="Gate_State"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="¬Arrive=Exit">
+<org.eventb.core.prIdent name="Arrive" org.eventb.core.type="Train_State"/>
+<org.eventb.core.prIdent name="Exit" org.eventb.core.type="Train_State"/>
+<org.eventb.core.prIdent name="Train_State" org.eventb.core.type="ℙ(Train_State)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="partition(Train_State,{Null_T},{Arrive},{Approach},{Exit})">
+<org.eventb.core.prIdent name="Approach" org.eventb.core.type="Train_State"/>
+<org.eventb.core.prIdent name="Arrive" org.eventb.core.type="Train_State"/>
+<org.eventb.core.prIdent name="Exit" org.eventb.core.type="Train_State"/>
+<org.eventb.core.prIdent name="Null_T" org.eventb.core.type="Train_State"/>
+<org.eventb.core.prIdent name="Train_State" org.eventb.core.type="ℙ(Train_State)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="Train_State={Null_T,Arrive,Approach,Exit}">
+<org.eventb.core.prIdent name="Approach" org.eventb.core.type="Train_State"/>
+<org.eventb.core.prIdent name="Arrive" org.eventb.core.type="Train_State"/>
+<org.eventb.core.prIdent name="Exit" org.eventb.core.type="Train_State"/>
+<org.eventb.core.prIdent name="Null_T" org.eventb.core.type="Train_State"/>
+<org.eventb.core.prIdent name="Train_State" org.eventb.core.type="ℙ(Train_State)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬Red=Green">
+<org.eventb.core.prIdent name="Green" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Red" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Signalling" org.eventb.core.type="ℙ(Signalling)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="¬Raise=Lower">
+<org.eventb.core.prIdent name="Controller_Order" org.eventb.core.type="ℙ(Controller_Order)"/>
+<org.eventb.core.prIdent name="Lower" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="Raise" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="¬Null_T=Exit">
+<org.eventb.core.prIdent name="Exit" org.eventb.core.type="Train_State"/>
+<org.eventb.core.prIdent name="Null_T" org.eventb.core.type="Train_State"/>
+<org.eventb.core.prIdent name="Train_State" org.eventb.core.type="ℙ(Train_State)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬Null_T=Arrive">
+<org.eventb.core.prIdent name="Arrive" org.eventb.core.type="Train_State"/>
+<org.eventb.core.prIdent name="Null_T" org.eventb.core.type="Train_State"/>
+<org.eventb.core.prIdent name="Train_State" org.eventb.core.type="ℙ(Train_State)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="partition(Gate_State,{Close},{Open})">
+<org.eventb.core.prIdent name="Close" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.prIdent name="Gate_State" org.eventb.core.type="ℙ(Gate_State)"/>
+<org.eventb.core.prIdent name="Open" org.eventb.core.type="Gate_State"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(Equipment,{Train},{Gate})">
+<org.eventb.core.prIdent name="Equipment" org.eventb.core.type="ℙ(Equipment)"/>
+<org.eventb.core.prIdent name="Gate" org.eventb.core.type="Equipment"/>
+<org.eventb.core.prIdent name="Train" org.eventb.core.type="Equipment"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="¬Approach=Exit">
+<org.eventb.core.prIdent name="Approach" org.eventb.core.type="Train_State"/>
+<org.eventb.core.prIdent name="Exit" org.eventb.core.type="Train_State"/>
+<org.eventb.core.prIdent name="Train_State" org.eventb.core.type="ℙ(Train_State)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="¬Yellow=Green">
+<org.eventb.core.prIdent name="Green" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Signalling" org.eventb.core.type="ℙ(Signalling)"/>
+<org.eventb.core.prIdent name="Yellow" org.eventb.core.type="Signalling"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="0∈ℕ"/>
+<org.eventb.core.prPred name="p23" org.eventb.core.predicate="Gate_State={Close,Open}">
+<org.eventb.core.prIdent name="Close" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.prIdent name="Gate_State" org.eventb.core.type="ℙ(Gate_State)"/>
+<org.eventb.core.prIdent name="Open" org.eventb.core.type="Gate_State"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p25" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬Null_T=Approach">
+<org.eventb.core.prIdent name="Approach" org.eventb.core.type="Train_State"/>
+<org.eventb.core.prIdent name="Null_T" org.eventb.core.type="Train_State"/>
+<org.eventb.core.prIdent name="Train_State" org.eventb.core.type="ℙ(Train_State)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="Signalling={Red,Yellow,Green}">
+<org.eventb.core.prIdent name="Green" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Red" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Signalling" org.eventb.core.type="ℙ(Signalling)"/>
+<org.eventb.core.prIdent name="Yellow" org.eventb.core.type="Signalling"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Train=Gate">
+<org.eventb.core.prIdent name="Equipment" org.eventb.core.type="ℙ(Equipment)"/>
+<org.eventb.core.prIdent name="Gate" org.eventb.core.type="Equipment"/>
+<org.eventb.core.prIdent name="Train" org.eventb.core.type="Equipment"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="partition(Controller_Order,{Raise},{Lower},{Null_C})">
+<org.eventb.core.prIdent name="Controller_Order" org.eventb.core.type="ℙ(Controller_Order)"/>
+<org.eventb.core.prIdent name="Lower" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="Null_C" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="Raise" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="Controller_Order={Raise,Lower,Null_C}">
+<org.eventb.core.prIdent name="Controller_Order" org.eventb.core.type="ℙ(Controller_Order)"/>
+<org.eventb.core.prIdent name="Lower" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="Null_C" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="Raise" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="Equipment={Train,Gate}">
+<org.eventb.core.prIdent name="Equipment" org.eventb.core.type="ℙ(Equipment)"/>
+<org.eventb.core.prIdent name="Gate" org.eventb.core.type="Equipment"/>
+<org.eventb.core.prIdent name="Train" org.eventb.core.type="Equipment"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="¬Lower=Null_C">
+<org.eventb.core.prIdent name="Controller_Order" org.eventb.core.type="ℙ(Controller_Order)"/>
+<org.eventb.core.prIdent name="Lower" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="Null_C" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="¬Red=Yellow">
+<org.eventb.core.prIdent name="Red" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Signalling" org.eventb.core.type="ℙ(Signalling)"/>
+<org.eventb.core.prIdent name="Yellow" org.eventb.core.type="Signalling"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="¬Raise=Null_C">
+<org.eventb.core.prIdent name="Controller_Order" org.eventb.core.type="ℙ(Controller_Order)"/>
+<org.eventb.core.prIdent name="Null_C" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="Raise" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬Arrive=Approach">
+<org.eventb.core.prIdent name="Approach" org.eventb.core.type="Train_State"/>
+<org.eventb.core.prIdent name="Arrive" org.eventb.core.type="Train_State"/>
+<org.eventb.core.prIdent name="Train_State" org.eventb.core.type="ℙ(Train_State)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="Tick_Tock/inv4/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.psManual="true">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="remove ∈ in goal" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p1">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p2"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p3"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p4"/>
+<org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p5"/>
+<org.eventb.core.prHypAction name="HIDE4" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Equipment,{Train},{Gate}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p7" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p8,p9"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p8,p9"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Signalling,{Red},{Yellow},{Green}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p10" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p11,p12,p13,p14"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p11,p12,p13,p14"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Train_Order,{Approach},{Exit}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p15" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p16,p17"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p16,p17"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Controller_Order,{Raise},{Lower},{NULL}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p18" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p19,p20,p21,p22"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p19,p20,p21,p22"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Gate_State,{Close},{Open}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p23" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p24,p25"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p24,p25"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p26"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="time" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="partition(Signalling,{Red},{Yellow},{Green})">
+<org.eventb.core.prIdent name="Green" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Red" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Signalling" org.eventb.core.type="ℙ(Signalling)"/>
+<org.eventb.core.prIdent name="Yellow" org.eventb.core.type="Signalling"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="¬Raise=NULL">
+<org.eventb.core.prIdent name="Controller_Order" org.eventb.core.type="ℙ(Controller_Order)"/>
+<org.eventb.core.prIdent name="NULL" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="Raise" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p25" org.eventb.core.predicate="¬Close=Open">
+<org.eventb.core.prIdent name="Close" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.prIdent name="Gate_State" org.eventb.core.type="ℙ(Gate_State)"/>
+<org.eventb.core.prIdent name="Open" org.eventb.core.type="Gate_State"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="Controller_Ctrl∈Controller_Order">
+<org.eventb.core.prIdent name="Controller_Ctrl" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="Controller_Order" org.eventb.core.type="ℙ(Controller_Order)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬Red=Green">
+<org.eventb.core.prIdent name="Green" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Red" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Signalling" org.eventb.core.type="ℙ(Signalling)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="¬Raise=Lower">
+<org.eventb.core.prIdent name="Controller_Order" org.eventb.core.type="ℙ(Controller_Order)"/>
+<org.eventb.core.prIdent name="Lower" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="Raise" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="0≤time+1"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="Train_Order={Approach,Exit}">
+<org.eventb.core.prIdent name="Approach" org.eventb.core.type="Train_Order"/>
+<org.eventb.core.prIdent name="Exit" org.eventb.core.type="Train_Order"/>
+<org.eventb.core.prIdent name="Train_Order" org.eventb.core.type="ℙ(Train_Order)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p23" org.eventb.core.predicate="partition(Gate_State,{Close},{Open})">
+<org.eventb.core.prIdent name="Close" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.prIdent name="Gate_State" org.eventb.core.type="ℙ(Gate_State)"/>
+<org.eventb.core.prIdent name="Open" org.eventb.core.type="Gate_State"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="partition(Equipment,{Train},{Gate})">
+<org.eventb.core.prIdent name="Equipment" org.eventb.core.type="ℙ(Equipment)"/>
+<org.eventb.core.prIdent name="Gate" org.eventb.core.type="Equipment"/>
+<org.eventb.core.prIdent name="Train" org.eventb.core.type="Equipment"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="¬Approach=Exit">
+<org.eventb.core.prIdent name="Approach" org.eventb.core.type="Train_Order"/>
+<org.eventb.core.prIdent name="Exit" org.eventb.core.type="Train_Order"/>
+<org.eventb.core.prIdent name="Train_Order" org.eventb.core.type="ℙ(Train_Order)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="Controller_Order={Raise,Lower,NULL}">
+<org.eventb.core.prIdent name="Controller_Order" org.eventb.core.type="ℙ(Controller_Order)"/>
+<org.eventb.core.prIdent name="Lower" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="NULL" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="Raise" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬Yellow=Green">
+<org.eventb.core.prIdent name="Green" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Signalling" org.eventb.core.type="ℙ(Signalling)"/>
+<org.eventb.core.prIdent name="Yellow" org.eventb.core.type="Signalling"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p24" org.eventb.core.predicate="Gate_State={Close,Open}">
+<org.eventb.core.prIdent name="Close" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.prIdent name="Gate_State" org.eventb.core.type="ℙ(Gate_State)"/>
+<org.eventb.core.prIdent name="Open" org.eventb.core.type="Gate_State"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="Signalling={Red,Yellow,Green}">
+<org.eventb.core.prIdent name="Green" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Red" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Signalling" org.eventb.core.type="ℙ(Signalling)"/>
+<org.eventb.core.prIdent name="Yellow" org.eventb.core.type="Signalling"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="tx∈ℤ">
+<org.eventb.core.prIdent name="tx" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="Gate_Information∈Gate_State">
+<org.eventb.core.prIdent name="Gate_Information" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.prIdent name="Gate_State" org.eventb.core.type="ℙ(Gate_State)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="Train_Ctrl∈Train_Order">
+<org.eventb.core.prIdent name="Train_Ctrl" org.eventb.core.type="Train_Order"/>
+<org.eventb.core.prIdent name="Train_Order" org.eventb.core.type="ℙ(Train_Order)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="¬Train=Gate">
+<org.eventb.core.prIdent name="Equipment" org.eventb.core.type="ℙ(Equipment)"/>
+<org.eventb.core.prIdent name="Gate" org.eventb.core.type="Equipment"/>
+<org.eventb.core.prIdent name="Train" org.eventb.core.type="Equipment"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="Equipment={Train,Gate}">
+<org.eventb.core.prIdent name="Equipment" org.eventb.core.type="ℙ(Equipment)"/>
+<org.eventb.core.prIdent name="Gate" org.eventb.core.type="Equipment"/>
+<org.eventb.core.prIdent name="Train" org.eventb.core.type="Equipment"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="time+1∈ℕ"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="¬Red=Yellow">
+<org.eventb.core.prIdent name="Red" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Signalling" org.eventb.core.type="ℙ(Signalling)"/>
+<org.eventb.core.prIdent name="Yellow" org.eventb.core.type="Signalling"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="tA∈ℤ">
+<org.eventb.core.prIdent name="tA" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="¬Lower=NULL">
+<org.eventb.core.prIdent name="Controller_Order" org.eventb.core.type="ℙ(Controller_Order)"/>
+<org.eventb.core.prIdent name="Lower" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="NULL" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="partition(Train_Order,{Approach},{Exit})">
+<org.eventb.core.prIdent name="Approach" org.eventb.core.type="Train_Order"/>
+<org.eventb.core.prIdent name="Exit" org.eventb.core.type="Train_Order"/>
+<org.eventb.core.prIdent name="Train_Order" org.eventb.core.type="ℙ(Train_Order)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="partition(Controller_Order,{Raise},{Lower},{NULL})">
+<org.eventb.core.prIdent name="Controller_Order" org.eventb.core.type="ℙ(Controller_Order)"/>
+<org.eventb.core.prIdent name="Lower" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="NULL" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="Raise" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p26" org.eventb.core.predicate="Train_Information∈Train_State">
+<org.eventb.core.prIdent name="Train_Information" org.eventb.core.type="Train_State"/>
+<org.eventb.core.prIdent name="Train_State" org.eventb.core.type="ℙ(Train_State)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.rmL1"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="INITIALISATION/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Equipment,{Train},{Gate}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p2,p3"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p2,p3"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Signalling,{Red},{Yellow},{Green}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p5,p6,p7,p8"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p5,p6,p7,p8"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Train_Order,{Approach},{Exit}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p9" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p10,p11"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p10,p11"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Controller_Order,{Raise},{Lower},{NULL}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p12" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p13,p14,p15,p16"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p13,p14,p15,p16"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Gate_State,{Close},{Open}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p17" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p18,p19"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p18,p19"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p20">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p20" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="0∈ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="partition(Signalling,{Red},{Yellow},{Green})">
+<org.eventb.core.prIdent name="Green" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Red" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Signalling" org.eventb.core.type="ℙ(Signalling)"/>
+<org.eventb.core.prIdent name="Yellow" org.eventb.core.type="Signalling"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="¬Raise=NULL">
+<org.eventb.core.prIdent name="Controller_Order" org.eventb.core.type="ℙ(Controller_Order)"/>
+<org.eventb.core.prIdent name="NULL" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="Raise" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="Gate_State={Close,Open}">
+<org.eventb.core.prIdent name="Close" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.prIdent name="Gate_State" org.eventb.core.type="ℙ(Gate_State)"/>
+<org.eventb.core.prIdent name="Open" org.eventb.core.type="Gate_State"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="¬Close=Open">
+<org.eventb.core.prIdent name="Close" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.prIdent name="Gate_State" org.eventb.core.type="ℙ(Gate_State)"/>
+<org.eventb.core.prIdent name="Open" org.eventb.core.type="Gate_State"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="Signalling={Red,Yellow,Green}">
+<org.eventb.core.prIdent name="Green" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Red" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Signalling" org.eventb.core.type="ℙ(Signalling)"/>
+<org.eventb.core.prIdent name="Yellow" org.eventb.core.type="Signalling"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬Red=Green">
+<org.eventb.core.prIdent name="Green" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Red" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Signalling" org.eventb.core.type="ℙ(Signalling)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬Raise=Lower">
+<org.eventb.core.prIdent name="Controller_Order" org.eventb.core.type="ℙ(Controller_Order)"/>
+<org.eventb.core.prIdent name="Lower" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="Raise" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Train=Gate">
+<org.eventb.core.prIdent name="Equipment" org.eventb.core.type="ℙ(Equipment)"/>
+<org.eventb.core.prIdent name="Gate" org.eventb.core.type="Equipment"/>
+<org.eventb.core.prIdent name="Train" org.eventb.core.type="Equipment"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="Equipment={Train,Gate}">
+<org.eventb.core.prIdent name="Equipment" org.eventb.core.type="ℙ(Equipment)"/>
+<org.eventb.core.prIdent name="Gate" org.eventb.core.type="Equipment"/>
+<org.eventb.core.prIdent name="Train" org.eventb.core.type="Equipment"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="¬Red=Yellow">
+<org.eventb.core.prIdent name="Red" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Signalling" org.eventb.core.type="ℙ(Signalling)"/>
+<org.eventb.core.prIdent name="Yellow" org.eventb.core.type="Signalling"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="Train_Order={Approach,Exit}">
+<org.eventb.core.prIdent name="Approach" org.eventb.core.type="Train_Order"/>
+<org.eventb.core.prIdent name="Exit" org.eventb.core.type="Train_Order"/>
+<org.eventb.core.prIdent name="Train_Order" org.eventb.core.type="ℙ(Train_Order)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="¬Lower=NULL">
+<org.eventb.core.prIdent name="Controller_Order" org.eventb.core.type="ℙ(Controller_Order)"/>
+<org.eventb.core.prIdent name="Lower" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="NULL" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="partition(Gate_State,{Close},{Open})">
+<org.eventb.core.prIdent name="Close" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.prIdent name="Gate_State" org.eventb.core.type="ℙ(Gate_State)"/>
+<org.eventb.core.prIdent name="Open" org.eventb.core.type="Gate_State"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(Equipment,{Train},{Gate})">
+<org.eventb.core.prIdent name="Equipment" org.eventb.core.type="ℙ(Equipment)"/>
+<org.eventb.core.prIdent name="Gate" org.eventb.core.type="Equipment"/>
+<org.eventb.core.prIdent name="Train" org.eventb.core.type="Equipment"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="partition(Train_Order,{Approach},{Exit})">
+<org.eventb.core.prIdent name="Approach" org.eventb.core.type="Train_Order"/>
+<org.eventb.core.prIdent name="Exit" org.eventb.core.type="Train_Order"/>
+<org.eventb.core.prIdent name="Train_Order" org.eventb.core.type="ℙ(Train_Order)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="partition(Controller_Order,{Raise},{Lower},{NULL})">
+<org.eventb.core.prIdent name="Controller_Order" org.eventb.core.type="ℙ(Controller_Order)"/>
+<org.eventb.core.prIdent name="Lower" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="NULL" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="Raise" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬Approach=Exit">
+<org.eventb.core.prIdent name="Approach" org.eventb.core.type="Train_Order"/>
+<org.eventb.core.prIdent name="Exit" org.eventb.core.type="Train_Order"/>
+<org.eventb.core.prIdent name="Train_Order" org.eventb.core.type="ℙ(Train_Order)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="Controller_Order={Raise,Lower,NULL}">
+<org.eventb.core.prIdent name="Controller_Order" org.eventb.core.type="ℙ(Controller_Order)"/>
+<org.eventb.core.prIdent name="Lower" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="NULL" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="Raise" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="¬Yellow=Green">
+<org.eventb.core.prIdent name="Green" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Signalling" org.eventb.core.type="ℙ(Signalling)"/>
+<org.eventb.core.prIdent name="Yellow" org.eventb.core.type="Signalling"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="INITIALISATION/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Equipment,{Train},{Gate}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p2,p3"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p2,p3"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Signalling,{Red},{Yellow},{Green}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p5,p6,p7,p8"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p5,p6,p7,p8"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Train_Order,{Approach},{Exit}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p9" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p10,p11"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p10,p11"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Controller_Order,{Raise},{Lower},{NULL}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p12" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p13,p14,p15,p16"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p13,p14,p15,p16"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Gate_State,{Close},{Open}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p17" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p18,p19"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p18,p19"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p20">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p20" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="partition(Signalling,{Red},{Yellow},{Green})">
+<org.eventb.core.prIdent name="Green" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Red" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Signalling" org.eventb.core.type="ℙ(Signalling)"/>
+<org.eventb.core.prIdent name="Yellow" org.eventb.core.type="Signalling"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="¬Raise=NULL">
+<org.eventb.core.prIdent name="Controller_Order" org.eventb.core.type="ℙ(Controller_Order)"/>
+<org.eventb.core.prIdent name="NULL" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="Raise" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="Gate_State={Close,Open}">
+<org.eventb.core.prIdent name="Close" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.prIdent name="Gate_State" org.eventb.core.type="ℙ(Gate_State)"/>
+<org.eventb.core.prIdent name="Open" org.eventb.core.type="Gate_State"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="¬Close=Open">
+<org.eventb.core.prIdent name="Close" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.prIdent name="Gate_State" org.eventb.core.type="ℙ(Gate_State)"/>
+<org.eventb.core.prIdent name="Open" org.eventb.core.type="Gate_State"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="Signalling={Red,Yellow,Green}">
+<org.eventb.core.prIdent name="Green" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Red" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Signalling" org.eventb.core.type="ℙ(Signalling)"/>
+<org.eventb.core.prIdent name="Yellow" org.eventb.core.type="Signalling"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬Red=Green">
+<org.eventb.core.prIdent name="Green" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Red" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Signalling" org.eventb.core.type="ℙ(Signalling)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬Raise=Lower">
+<org.eventb.core.prIdent name="Controller_Order" org.eventb.core.type="ℙ(Controller_Order)"/>
+<org.eventb.core.prIdent name="Lower" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="Raise" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Train=Gate">
+<org.eventb.core.prIdent name="Equipment" org.eventb.core.type="ℙ(Equipment)"/>
+<org.eventb.core.prIdent name="Gate" org.eventb.core.type="Equipment"/>
+<org.eventb.core.prIdent name="Train" org.eventb.core.type="Equipment"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="Equipment={Train,Gate}">
+<org.eventb.core.prIdent name="Equipment" org.eventb.core.type="ℙ(Equipment)"/>
+<org.eventb.core.prIdent name="Gate" org.eventb.core.type="Equipment"/>
+<org.eventb.core.prIdent name="Train" org.eventb.core.type="Equipment"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="¬Red=Yellow">
+<org.eventb.core.prIdent name="Red" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Signalling" org.eventb.core.type="ℙ(Signalling)"/>
+<org.eventb.core.prIdent name="Yellow" org.eventb.core.type="Signalling"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="5∈ℕ"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="Train_Order={Approach,Exit}">
+<org.eventb.core.prIdent name="Approach" org.eventb.core.type="Train_Order"/>
+<org.eventb.core.prIdent name="Exit" org.eventb.core.type="Train_Order"/>
+<org.eventb.core.prIdent name="Train_Order" org.eventb.core.type="ℙ(Train_Order)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="¬Lower=NULL">
+<org.eventb.core.prIdent name="Controller_Order" org.eventb.core.type="ℙ(Controller_Order)"/>
+<org.eventb.core.prIdent name="Lower" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="NULL" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="partition(Gate_State,{Close},{Open})">
+<org.eventb.core.prIdent name="Close" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.prIdent name="Gate_State" org.eventb.core.type="ℙ(Gate_State)"/>
+<org.eventb.core.prIdent name="Open" org.eventb.core.type="Gate_State"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(Equipment,{Train},{Gate})">
+<org.eventb.core.prIdent name="Equipment" org.eventb.core.type="ℙ(Equipment)"/>
+<org.eventb.core.prIdent name="Gate" org.eventb.core.type="Equipment"/>
+<org.eventb.core.prIdent name="Train" org.eventb.core.type="Equipment"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="partition(Train_Order,{Approach},{Exit})">
+<org.eventb.core.prIdent name="Approach" org.eventb.core.type="Train_Order"/>
+<org.eventb.core.prIdent name="Exit" org.eventb.core.type="Train_Order"/>
+<org.eventb.core.prIdent name="Train_Order" org.eventb.core.type="ℙ(Train_Order)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="partition(Controller_Order,{Raise},{Lower},{NULL})">
+<org.eventb.core.prIdent name="Controller_Order" org.eventb.core.type="ℙ(Controller_Order)"/>
+<org.eventb.core.prIdent name="Lower" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="NULL" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="Raise" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬Approach=Exit">
+<org.eventb.core.prIdent name="Approach" org.eventb.core.type="Train_Order"/>
+<org.eventb.core.prIdent name="Exit" org.eventb.core.type="Train_Order"/>
+<org.eventb.core.prIdent name="Train_Order" org.eventb.core.type="ℙ(Train_Order)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="Controller_Order={Raise,Lower,NULL}">
+<org.eventb.core.prIdent name="Controller_Order" org.eventb.core.type="ℙ(Controller_Order)"/>
+<org.eventb.core.prIdent name="Lower" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="NULL" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.prIdent name="Raise" org.eventb.core.type="Controller_Order"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="¬Yellow=Green">
+<org.eventb.core.prIdent name="Green" org.eventb.core.type="Signalling"/>
+<org.eventb.core.prIdent name="Signalling" org.eventb.core.type="ℙ(Signalling)"/>
+<org.eventb.core.prIdent name="Yellow" org.eventb.core.type="Signalling"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="Gate_Lower/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0"/>
+<org.eventb.core.prIdent name="time" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="time∈ℕ"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+</org.eventb.core.prProof>
+</org.eventb.core.prFile>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase;de.prob.units.mchBase">
+<org.eventb.core.scExtendsContext name="'" org.eventb.core.scTarget="/RailLevelCross20180917_BMS/C3.bcc|org.eventb.core.scContextFile#C3" org.eventb.core.source="/RailLevelCross20180917_BMS/C4.buc|org.eventb.core.contextFile#C4|org.eventb.core.extendsContext#'"/>
+<org.eventb.core.scInternalContext name="C1">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="partition(Controller_Order,{GoUp},{GoDown},{Null_C})" org.eventb.core.source="/RailLevelCross20180917_BMS/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.axiom#7" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="(" org.eventb.core.label="axm2" org.eventb.core.predicate="partition(Gate_State,{Initia},{Closing},{Closed},{Opening},{Opened})" org.eventb.core.source="/RailLevelCross20180917_BMS/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.axiom#;" org.eventb.core.theorem="false"/>
+<org.eventb.core.scConstant name="Closed" org.eventb.core.source="/RailLevelCross20180917_BMS/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.constant#_orWi8LJQEeeJ-5AShvxY9g" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.scConstant name="Closing" org.eventb.core.source="/RailLevelCross20180917_BMS/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.constant#9" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.scCarrierSet name="Controller_Order" org.eventb.core.source="/RailLevelCross20180917_BMS/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.carrierSet#4" org.eventb.core.type="ℙ(Controller_Order)"/>
+<org.eventb.core.scCarrierSet name="Gate_State" org.eventb.core.source="/RailLevelCross20180917_BMS/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.carrierSet#8" org.eventb.core.type="ℙ(Gate_State)"/>
+<org.eventb.core.scConstant name="GoDown" org.eventb.core.source="/RailLevelCross20180917_BMS/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.constant#6" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.scConstant name="GoUp" org.eventb.core.source="/RailLevelCross20180917_BMS/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.constant#5" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.scConstant name="Initia" org.eventb.core.source="/RailLevelCross20180917_BMS/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.constant#_orZmQLJQEeeJ-5AShvxY9h" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.scConstant name="Null_C" org.eventb.core.source="/RailLevelCross20180917_BMS/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.constant#=" org.eventb.core.type="Controller_Order"/>
+<org.eventb.core.scConstant name="Opened" org.eventb.core.source="/RailLevelCross20180917_BMS/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.constant#_orZmQLJQEeeJ-5AShvxY9g" org.eventb.core.type="Gate_State"/>
+<org.eventb.core.scConstant name="Opening" org.eventb.core.source="/RailLevelCross20180917_BMS/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.constant#:" org.eventb.core.type="Gate_State"/>
+</org.eventb.core.scInternalContext>
+<org.eventb.core.scInternalContext name="C2">
+<org.eventb.core.scExtendsContext name="'" org.eventb.core.scTarget="/RailLevelCross20180917_BMS/C1.bcc|org.eventb.core.scContextFile#C1" org.eventb.core.source="/RailLevelCross20180917_BMS/C2.buc|org.eventb.core.contextFile#C2|org.eventb.core.extendsContext#'"/>
+<org.eventb.core.scAxiom name="C2" org.eventb.core.label="axm1" org.eventb.core.predicate="Time_Closing=6" org.eventb.core.source="/RailLevelCross20180917_BMS/C2.buc|org.eventb.core.contextFile#C2|org.eventb.core.axiom#)" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="C3" org.eventb.core.label="axm2" org.eventb.core.predicate="Time_Opening=6" org.eventb.core.source="/RailLevelCross20180917_BMS/C2.buc|org.eventb.core.contextFile#C2|org.eventb.core.axiom#+" org.eventb.core.theorem="false"/>
+<org.eventb.core.scConstant name="Time_Closing" org.eventb.core.source="/RailLevelCross20180917_BMS/C2.buc|org.eventb.core.contextFile#C2|org.eventb.core.constant#(" org.eventb.core.type="ℤ"/>
+<org.eventb.core.scConstant name="Time_Opening" org.eventb.core.source="/RailLevelCross20180917_BMS/C2.buc|org.eventb.core.contextFile#C2|org.eventb.core.constant#*" org.eventb.core.type="ℤ"/>
+</org.eventb.core.scInternalContext>
+<org.eventb.core.scInternalContext name="C3">
+<org.eventb.core.scExtendsContext name="'" org.eventb.core.scTarget="/RailLevelCross20180917_BMS/C2.bcc|org.eventb.core.scContextFile#C2" org.eventb.core.source="/RailLevelCross20180917_BMS/C3.buc|org.eventb.core.contextFile#C3|org.eventb.core.extendsContext#'"/>
+<org.eventb.core.scAxiom name="C3" org.eventb.core.label="axm1" org.eventb.core.predicate="partition(Train_State,{Null_T},{Approach},{Close},{Exit})" org.eventb.core.source="/RailLevelCross20180917_BMS/C3.buc|org.eventb.core.contextFile#C3|org.eventb.core.axiom#," org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="C4" org.eventb.core.label="axm2" org.eventb.core.predicate="partition(Signalling_State,{Sigalling_Initia},{Red},{White},{Red_Flash})" org.eventb.core.source="/RailLevelCross20180917_BMS/C3.buc|org.eventb.core.contextFile#C3|org.eventb.core.axiom#1" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="C5" org.eventb.core.label="axm3" org.eventb.core.predicate="partition(Signalling_Order,{Turn_White},{Turn_Red},{Turn_RedFlash},{Null_S})" org.eventb.core.source="/RailLevelCross20180917_BMS/C3.buc|org.eventb.core.contextFile#C3|org.eventb.core.axiom#7" org.eventb.core.theorem="false"/>
+<org.eventb.core.scConstant name="Approach" org.eventb.core.source="/RailLevelCross20180917_BMS/C3.buc|org.eventb.core.contextFile#C3|org.eventb.core.constant#)" org.eventb.core.type="Train_State"/>
+<org.eventb.core.scConstant name="Close" org.eventb.core.source="/RailLevelCross20180917_BMS/C3.buc|org.eventb.core.contextFile#C3|org.eventb.core.constant#*" org.eventb.core.type="Train_State"/>
+<org.eventb.core.scConstant name="Exit" org.eventb.core.source="/RailLevelCross20180917_BMS/C3.buc|org.eventb.core.contextFile#C3|org.eventb.core.constant#+" org.eventb.core.type="Train_State"/>
+<org.eventb.core.scConstant name="Null_S" org.eventb.core.source="/RailLevelCross20180917_BMS/C3.buc|org.eventb.core.contextFile#C3|org.eventb.core.constant#6" org.eventb.core.type="Signalling_Order"/>
+<org.eventb.core.scConstant name="Null_T" org.eventb.core.source="/RailLevelCross20180917_BMS/C3.buc|org.eventb.core.contextFile#C3|org.eventb.core.constant#8" org.eventb.core.type="Train_State"/>
+<org.eventb.core.scConstant name="Red" org.eventb.core.source="/RailLevelCross20180917_BMS/C3.buc|org.eventb.core.contextFile#C3|org.eventb.core.constant#." org.eventb.core.type="Signalling_State"/>
+<org.eventb.core.scConstant name="Red_Flash" org.eventb.core.source="/RailLevelCross20180917_BMS/C3.buc|org.eventb.core.contextFile#C3|org.eventb.core.constant#0" org.eventb.core.type="Signalling_State"/>
+<org.eventb.core.scConstant name="Sigalling_Initia" org.eventb.core.source="/RailLevelCross20180917_BMS/C3.buc|org.eventb.core.contextFile#C3|org.eventb.core.constant#9" org.eventb.core.type="Signalling_State"/>
+<org.eventb.core.scCarrierSet name="Signalling_Order" org.eventb.core.source="/RailLevelCross20180917_BMS/C3.buc|org.eventb.core.contextFile#C3|org.eventb.core.carrierSet#2" org.eventb.core.type="ℙ(Signalling_Order)"/>
+<org.eventb.core.scCarrierSet name="Signalling_State" org.eventb.core.source="/RailLevelCross20180917_BMS/C3.buc|org.eventb.core.contextFile#C3|org.eventb.core.carrierSet#-" org.eventb.core.type="ℙ(Signalling_State)"/>
+<org.eventb.core.scCarrierSet name="Train_State" org.eventb.core.source="/RailLevelCross20180917_BMS/C3.buc|org.eventb.core.contextFile#C3|org.eventb.core.carrierSet#(" org.eventb.core.type="ℙ(Train_State)"/>
+<org.eventb.core.scConstant name="Turn_Red" org.eventb.core.source="/RailLevelCross20180917_BMS/C3.buc|org.eventb.core.contextFile#C3|org.eventb.core.constant#4" org.eventb.core.type="Signalling_Order"/>
+<org.eventb.core.scConstant name="Turn_RedFlash" org.eventb.core.source="/RailLevelCross20180917_BMS/C3.buc|org.eventb.core.contextFile#C3|org.eventb.core.constant#5" org.eventb.core.type="Signalling_Order"/>
+<org.eventb.core.scConstant name="Turn_White" org.eventb.core.source="/RailLevelCross20180917_BMS/C3.buc|org.eventb.core.contextFile#C3|org.eventb.core.constant#3" org.eventb.core.type="Signalling_Order"/>
+<org.eventb.core.scConstant name="White" org.eventb.core.source="/RailLevelCross20180917_BMS/C3.buc|org.eventb.core.contextFile#C3|org.eventb.core.constant#\/" org.eventb.core.type="Signalling_State"/>
+</org.eventb.core.scInternalContext>
+<org.eventb.core.scAxiom name="C4" org.eventb.core.label="axm1" org.eventb.core.predicate="Time_Approach_GateClosing=3" org.eventb.core.source="/RailLevelCross20180917_BMS/C4.buc|org.eventb.core.contextFile#C4|org.eventb.core.axiom#)" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="C5" org.eventb.core.label="axm2" org.eventb.core.predicate="partition(Train_Ctrl,{Brake},{KeepGoing},{Normal_Ctrl})" org.eventb.core.source="/RailLevelCross20180917_BMS/C4.buc|org.eventb.core.contextFile#C4|org.eventb.core.axiom#+" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="C6" org.eventb.core.label="axm3" org.eventb.core.predicate="partition(Crossing_State,{Normal},{Abnormal})" org.eventb.core.source="/RailLevelCross20180917_BMS/C4.buc|org.eventb.core.contextFile#C4|org.eventb.core.axiom#2" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="C7" org.eventb.core.label="axm4" org.eventb.core.predicate="Time_Closing_Coming=3" org.eventb.core.source="/RailLevelCross20180917_BMS/C4.buc|org.eventb.core.contextFile#C4|org.eventb.core.axiom#8" org.eventb.core.theorem="false"/>
+<org.eventb.core.scConstant name="Abnormal" org.eventb.core.source="/RailLevelCross20180917_BMS/C4.buc|org.eventb.core.contextFile#C4|org.eventb.core.constant#1" org.eventb.core.type="Crossing_State"/>
+<org.eventb.core.scConstant name="Brake" org.eventb.core.source="/RailLevelCross20180917_BMS/C4.buc|org.eventb.core.contextFile#C4|org.eventb.core.constant#4" org.eventb.core.type="Train_Ctrl"/>
+<org.eventb.core.scCarrierSet name="Crossing_State" org.eventb.core.source="/RailLevelCross20180917_BMS/C4.buc|org.eventb.core.contextFile#C4|org.eventb.core.carrierSet#\/" org.eventb.core.type="ℙ(Crossing_State)"/>
+<org.eventb.core.scConstant name="KeepGoing" org.eventb.core.source="/RailLevelCross20180917_BMS/C4.buc|org.eventb.core.contextFile#C4|org.eventb.core.constant#5" org.eventb.core.type="Train_Ctrl"/>
+<org.eventb.core.scConstant name="Normal" org.eventb.core.source="/RailLevelCross20180917_BMS/C4.buc|org.eventb.core.contextFile#C4|org.eventb.core.constant#0" org.eventb.core.type="Crossing_State"/>
+<org.eventb.core.scConstant name="Normal_Ctrl" org.eventb.core.source="/RailLevelCross20180917_BMS/C4.buc|org.eventb.core.contextFile#C4|org.eventb.core.constant#6" org.eventb.core.type="Train_Ctrl"/>
+<org.eventb.core.scConstant name="Time_Approach_GateClosing" org.eventb.core.source="/RailLevelCross20180917_BMS/C4.buc|org.eventb.core.contextFile#C4|org.eventb.core.constant#(" org.eventb.core.type="ℤ"/>
+<org.eventb.core.scConstant name="Time_Closing_Coming" org.eventb.core.source="/RailLevelCross20180917_BMS/C4.buc|org.eventb.core.contextFile#C4|org.eventb.core.constant#7" org.eventb.core.type="ℤ"/>
+<org.eventb.core.scCarrierSet name="Train_Ctrl" org.eventb.core.source="/RailLevelCross20180917_BMS/C4.buc|org.eventb.core.contextFile#C4|org.eventb.core.carrierSet#3" org.eventb.core.type="ℙ(Train_Ctrl)"/>
+</org.eventb.core.scContextFile>
